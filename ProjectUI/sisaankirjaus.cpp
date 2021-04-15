@@ -24,6 +24,9 @@ void Sisaankirjaus::on_pushButton_clicked()
         Menu kir;
         kir.setModal(true);
         kir.exec();
+        
+        this->close();
+        
     }
 
     else {
